@@ -38,7 +38,7 @@ public class ProductRepositoryImpl implements ProductRepository {
             resultString.append("\n");
         }
         resultString.append(String.format("+%-10s+%-30s+%-10s+%-10s+%n", "-".repeat(10), "-".repeat(30), "-".repeat(10), "-".repeat(10)));
-        System.out.println(resultString);
+        System.out.print(resultString);
     }
 
     @Override
